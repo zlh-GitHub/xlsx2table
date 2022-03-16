@@ -1,0 +1,51 @@
+{
+  "name": "x2t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "x2t": "lib/index.js"
+  },
+  "homepage": "https://github.com/zlh-GitHub/xlsx2table",
+  "bugs": {
+    "url": "https://github.com/zlh-GitHub/xlsx2table/issues"
+  },
+  "scripts": {
+    "build": "rimraf lib/ && rollup -c rollup.config.js"
+  },
+  "keywords": [
+    "xlsx",
+    "xls",
+    "excel",
+    "table",
+    "x2t",
+    "xlsx2table",
+    "xlsxToTable",
+    "xlsx to table",
+    "excel2table",
+    "excelToTable",
+    "excel to table"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "chalk": "^4.0.0",
+    "cli-progress": "^3.10.0",
+    "commander": "^9.0.0",
+    "core-js": "^3.21.1",
+    "ejs": "^3.1.6",
+    "exceljs": "^4.3.0",
+    "moment": "^2.29.1",
+    "ora": "^5.4.1",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-preserve-shebang": "^1.0.1"
+  }
+}
